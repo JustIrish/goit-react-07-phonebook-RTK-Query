@@ -2,7 +2,6 @@ import { useGetContactsQuery } from 'redux/contactsSlice';
 import { GlobalStyle } from './GlobalStyle';
 import { Toaster } from 'react-hot-toast';
 import { Layout } from './Layout';
-
 import { ContactForm } from './ContactForm/ContactForm';
 import { ContactList } from './ContactList/ContactList';
 import { Filter } from './Filter/Filter';
